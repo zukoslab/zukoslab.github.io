@@ -99,9 +99,11 @@ p {
 .line1 {
     color: #ebede9;
     font-family: poppins-extrabold;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     text-decoration: none;
+    top:2cqmin;
+    position:relative;
 }
 
 .line2 {
@@ -110,6 +112,8 @@ p {
     font-size: 100%;
     text-align: center;
     text-decoration: none;
+    top: 2vh;
+    position: relative;
 }
 
 .line1Unactive {
@@ -333,4 +337,11 @@ a {
     position:absolute;
     top:15vh;
     left:44vw;
+}
+
+.project_box_img {
+    width: 37.5vh;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
