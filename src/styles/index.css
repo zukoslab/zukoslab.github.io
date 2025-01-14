@@ -1,0 +1,234 @@
+@font-face {
+    font-family: poppins-semibold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: poppins-extrabold;
+    src: url(../font/Poppins-ExtraBold.ttf);
+}
+
+.navbar {
+    width: 150%;
+    height: 75px;
+    border-radius: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: poppins-semibold;
+    font-size: x-large;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar_logo {
+    width: 5em;
+    height: 5em;
+    overflow: hidden;
+    margin-top: -6px;
+    position: fixed;
+    right: 50px;
+    top: 12px;
+    background-color: rgb(27, 27, 34);
+    border-radius: 100px;
+    /* box-shadow: 0px 0px 20px 5px rgb(92, 92, 92); */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ebede9;
+    text-align: center;
+    padding-right: 1.5em;
+    padding-top: 0.2em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.selected_page {
+    color: #819796;
+    font-family: poppins-extrabold;
+}
+
+li a:hover {
+    padding-top: 0em;
+}
+
+.page_header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 5em;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    background-color: #1e1d39;
+    box-shadow: 0px 0px 40px 10px #171526;
+}
+
+body {
+    margin: 0px;
+
+}
+
+html {
+    overflow: hidden;
+    background-color: #171526;
+}
+
+p {
+    font-family: poppins-semibold;
+    font-size: medium;
+    position: relative;
+}
+
+.tech_wallpaper {
+    width: 100%;
+    opacity: 25%;
+    box-shadow: 0px 0px 40px 10px rgb(92, 92, 92);
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    color: #ebede9;
+}
+
+.line1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #ebede9;
+    font-family: poppins-semibold;
+    font-size: 300%;
+}
+
+.line2 {
+    position: absolute;
+    top: 32.5%;
+    left: 10%;
+    color: #ebede9;
+    font-family: poppins-semibold;
+    font-size: 300%;
+}
+
+.line3 {
+    position: absolute;
+    top: 47.5%;
+    left: 10%;
+    color: #ebede9;
+    font-family: poppins-semibold;
+    font-size: 125%;
+}
+
+.about_me {
+    transition: 0.2s;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-family: poppins-semibold;
+    font-size: 125%;
+    overflow: hidden;
+    background-color: rgb(218, 135, 79);
+    border-radius: 100px;
+    border: 10px solid rgb(218, 135, 79);
+    box-shadow: 0px 0px 40px 10px rgb(218, 135, 79);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about_me:hover {
+    top: 59%;
+}
+
+.about_me_text {
+    text-decoration: none;
+    color: white;
+}
+
+.github {
+    transition: 0.2s;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: black;
+    font-family: poppins-semibold;
+    font-size: 125%;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background-color: rgb(96, 76, 168);
+    border-radius: 100px;
+    border: 10px solid rgb(96, 76, 168);
+    box-shadow: 5px 5px rgb(51, 51, 110);
+}
+
+.github:hover {
+    top: 69%;
+}
+
+.discord {
+    transition: 0.2s;
+    position: absolute;
+    top: 70%;
+    left: 14%;
+    color: black;
+    font-family: poppins-semibold;
+    font-size: 125%;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background-color: rgb(96, 76, 168);
+    border-radius: 100px;
+    border: 10px solid rgb(96, 76, 168);
+    box-shadow: 5px 5px rgb(51, 51, 110);
+}
+
+.discord:hover {
+    top: 69%;
+}
+
+.bluesky {
+    transition: 0.2s;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    color: black;
+    font-family: poppins-semibold;
+    font-size: 125%;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background-color: rgb(96, 76, 168);
+    border-radius: 100px;
+    border: 10px solid rgb(96, 76, 168);
+    box-shadow: 5px 5px rgb(51, 51, 110);
+}
+
+.bluesky:hover {
+    top: 69%;
+}
+
+.youtube {
+    transition: 0.2s;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    color: black;
+    font-family: poppins-semibold;
+    font-size: 125%;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background-color: rgb(96, 76, 168);
+    border-radius: 100px;
+    border: 10px solid rgb(96, 76, 168);
+    box-shadow: 5px 5px rgb(51, 51, 110);
+}
+
+.youtube:hover {
+    top: 69%;
+}
