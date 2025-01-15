@@ -358,8 +358,6 @@ a {
 .project_box_img_unactive {
     width: 37.5vh;
     position: relative;
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
     border-radius: 20px;
     opacity: 30%;
 }
