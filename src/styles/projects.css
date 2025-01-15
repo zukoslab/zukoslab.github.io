@@ -102,7 +102,7 @@ p {
     font-size: 200%;
     text-align: center;
     text-decoration: none;
-    top:2cqmin;
+    top:2vh;
     position:relative;
 }
 
@@ -119,8 +119,10 @@ p {
 .line1Unactive {
     color: #817d7d;
     font-family: poppins-extrabold;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
+    position:relative;
+    top:2cqmin;
 }
 
 .line2Unactive {
@@ -129,6 +131,8 @@ p {
     font-size: 100%;
     text-align: center;
     text-decoration: none;
+    position: relative;
+    top: 2vh;
 }
 
 .about_me {
@@ -250,7 +254,7 @@ p {
     top: 15vh;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px 5px #090911;
+    box-shadow: 0px 0px 40px 5px #090911;
     transition: 0.2s;
 }
 
@@ -263,7 +267,8 @@ p {
     top: 14vh;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px 5px #090911;
+    box-shadow: 0px 0px 40px 5px #090911;
+    outline: 5px solid #2e2d55;
 }
 
 .project_box_2 {
@@ -275,12 +280,13 @@ p {
     bottom: 22.4vh;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px 5px #090911;
+    box-shadow: 0px 0px 40px 5px #090911;
     transition: 0.2s;
 }
 
 /* .project_box_2:hover {
     bottom: 23.4vh;
+    outline: 5px solid #2e2d55;
 } */
 
 .project_box_3 {
@@ -292,12 +298,13 @@ p {
     bottom: 60vh;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px 5px #090911;
+    box-shadow: 0px 0px 40px 5px #090911;
     transition: 0.2s;
 }
 
 /* .project_box_3:hover {
     bottom: 61vh;
+    outline: 5px solid #2e2d55;
 } */
 
 .project_box_4 {
@@ -309,12 +316,13 @@ p {
     bottom: 97.6vh;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px 5px #090911;
+    box-shadow: 0px 0px 40px 5px #090911;
     transition: 0.2s;
 }
 
 /* .project_box_4:hover {
     bottom: 98.6vh;
+    outline: 5px solid #2e2d55;
 } */
 
 .projects {
@@ -345,4 +353,13 @@ a {
     /* border-top-left-radius: 20px;
     border-top-right-radius: 20px; */
     border-radius: 20px;
+}
+
+.project_box_img_unactive {
+    width: 37.5vh;
+    position: relative;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    border-radius: 20px;
+    opacity: 30%;
 }
