@@ -138,10 +138,12 @@ p {
     box-shadow: 0px 0px 40px 10px rgb(218, 135, 79);
     padding-left: 10px;
     padding-right: 10px;
+    outline: 0px solid rgb(255, 159, 104);
 }
 
 .about_me:hover {
     top: 59%;
+    outline: 5px solid rgb(255, 159, 104);
 }
 
 .about_me_text {
@@ -164,10 +166,12 @@ p {
     border-radius: 100px;
     border: 10px solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
+    outline: 0px solid rgb(72, 55, 117);
 }
 
 .github:hover {
     top: 69%;
+    outline: 5px solid rgb(146, 103, 226);
 }
 
 .discord {
@@ -185,10 +189,12 @@ p {
     border-radius: 100px;
     border: 10px solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
+    outline: 0px solid rgb(146, 103, 226)
 }
 
 .discord:hover {
     top: 69%;
+    outline: 5px solid rgb(146, 103, 226)
 }
 
 .bluesky {
@@ -206,10 +212,12 @@ p {
     border-radius: 100px;
     border: 10px solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
+    outline: 0px solid rgb(146, 103, 226)
 }
 
 .bluesky:hover {
     top: 69%;
+    outline: 5px solid rgb(146, 103, 226)
 }
 
 .youtube {
@@ -227,8 +235,10 @@ p {
     border-radius: 100px;
     border: 10px solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
+    outline: 0px solid rgb(146, 103, 226)
 }
 
 .youtube:hover {
     top: 69%;
+    outline: 5px solid rgb(146, 103, 226)
 }
