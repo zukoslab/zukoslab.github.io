@@ -15,14 +15,14 @@
     list-style-type: none;
     overflow: hidden;
     font-family: poppins-semibold;
-    font-size: x-large;
+    font-size: 1.15vw;
     position: fixed;
     z-index: 2;
 }
 
 .navbar_logo {
-    width: 5em;
-    height: 5em;
+    width: 5vw;
+    height: 5vw;
     overflow: hidden;
     margin-top: -6px;
     position: fixed;
@@ -41,8 +41,8 @@ li a {
     display: block;
     color: #ebede9;
     text-align: center;
-    padding-right: 1.5em;
-    padding-top: 0.2em;
+    padding-right: 1.5vw;
+    padding-top: 0.2vw;
     text-decoration: none;
     transition: 0.2s;
 }
@@ -53,14 +53,14 @@ li a {
 }
 
 li a:hover {
-    padding-top: 0em;
+    padding-top: 0vw;
 }
 
 .page_header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    height: 5em;
+    height: 4vw;
     margin: 0%;
     border: 0%;
     padding: 0%;
@@ -86,6 +86,7 @@ p {
 
 .tech_wallpaper {
     width: 100%;
+    height: 100%;
     opacity: 25%;
     box-shadow: 0px 0px 40px 10px rgb(92, 92, 92);
 }
@@ -102,7 +103,7 @@ p {
     left: 10%;
     color: #ebede9;
     font-family: poppins-semibold;
-    font-size: 300%;
+    font-size: 2.5vw;
 }
 
 .line2 {
@@ -111,7 +112,7 @@ p {
     left: 10%;
     color: #ebede9;
     font-family: poppins-semibold;
-    font-size: 300%;
+    font-size: 2.5vw;
 }
 
 .line3 {
@@ -120,7 +121,7 @@ p {
     left: 10%;
     color: #ebede9;
     font-family: poppins-semibold;
-    font-size: 125%;
+    font-size: 1.25vw;
 }
 
 .about_me {
@@ -130,11 +131,11 @@ p {
     left: 10%;
     color: white;
     font-family: poppins-semibold;
-    font-size: 125%;
+    font-size: 1.25vw;
     overflow: hidden;
     background-color: rgb(218, 135, 79);
     border-radius: 100px;
-    border: 10px solid rgb(218, 135, 79);
+    border: 0.6vw solid rgb(218, 135, 79);
     box-shadow: 0px 0px 40px 10px rgb(218, 135, 79);
     padding-left: 10px;
     padding-right: 10px;
@@ -143,7 +144,7 @@ p {
 
 .about_me:hover {
     top: 59%;
-    outline: 5px solid rgb(255, 159, 104);
+    outline: 0.3vw solid rgb(255, 159, 104);
 }
 
 .about_me_text {
@@ -155,90 +156,90 @@ p {
     transition: 0.2s;
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 10vw;
     color: black;
     font-family: poppins-semibold;
     font-size: 125%;
-    width: 32px;
-    height: 32px;
+    height: 1.75vw;
+    width: 1.75vw;
     overflow: hidden;
     background-color: rgb(96, 76, 168);
     border-radius: 100px;
-    border: 10px solid rgb(96, 76, 168);
+    border: 0.6vw solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
     outline: 0px solid rgb(72, 55, 117);
 }
 
 .github:hover {
     top: 69%;
-    outline: 5px solid rgb(146, 103, 226);
+    outline: 0.4vw solid rgb(146, 103, 226);
 }
 
 .discord {
     transition: 0.2s;
     position: absolute;
     top: 70%;
-    left: 14%;
+    left: 14vw;
     color: black;
     font-family: poppins-semibold;
     font-size: 125%;
-    width: 32px;
-    height: 32px;
+    height: 1.75vw;
+    width: 1.75vw;
     overflow: hidden;
     background-color: rgb(96, 76, 168);
     border-radius: 100px;
-    border: 10px solid rgb(96, 76, 168);
+    border: 0.6vw solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
     outline: 0px solid rgb(146, 103, 226)
 }
 
 .discord:hover {
     top: 69%;
-    outline: 5px solid rgb(146, 103, 226)
+    outline: 0.4vw solid rgb(146, 103, 226)
 }
 
 .bluesky {
     transition: 0.2s;
     position: absolute;
     top: 70%;
-    left: 18%;
+    left: 18vw;
     color: black;
     font-family: poppins-semibold;
     font-size: 125%;
-    width: 32px;
-    height: 32px;
+    height: 1.75vw;
+    width: 1.75vw;
     overflow: hidden;
     background-color: rgb(96, 76, 168);
     border-radius: 100px;
-    border: 10px solid rgb(96, 76, 168);
+    border: 0.6vw solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
     outline: 0px solid rgb(146, 103, 226)
 }
 
 .bluesky:hover {
     top: 69%;
-    outline: 5px solid rgb(146, 103, 226)
+    outline: 0.4vw solid rgb(146, 103, 226)
 }
 
 .youtube {
     transition: 0.2s;
     position: absolute;
     top: 70%;
-    left: 22%;
+    left: 22vw;
     color: black;
     font-family: poppins-semibold;
     font-size: 125%;
-    width: 32px;
-    height: 32px;
+    height: 1.75vw;
+    width: 1.75vw;
     overflow: hidden;
     background-color: rgb(96, 76, 168);
     border-radius: 100px;
-    border: 10px solid rgb(96, 76, 168);
+    border: 0.6vw solid rgb(96, 76, 168);
     box-shadow: 5px 5px rgb(51, 51, 110);
     outline: 0px solid rgb(146, 103, 226)
 }
 
 .youtube:hover {
     top: 69%;
-    outline: 5px solid rgb(146, 103, 226)
+    outline: 0.4vw solid rgb(146, 103, 226)
 }
